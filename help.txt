@@ -1,0 +1,2 @@
+sudo docker build -t nodejsmongo:v1
+sudo docker run -p 3001:3000 -p 27018:27017 nodejsmongo:v1
